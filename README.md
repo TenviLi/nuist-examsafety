@@ -44,6 +44,7 @@ F12打开开发者控制台 点击console选项卡 粘贴后回车即可运行
 ### 使用方法3
 
 把代码前加上`javascript:`后粘贴在URL地址栏中即可
+
 ![](assets/usage.jpg)
 
 ## 最终效果图
