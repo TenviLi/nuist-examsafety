@@ -46,6 +46,16 @@
 
 最终发现，浏览器会携带一个身份 cookie 每 1min 无参轮询 一个心跳接口。
 
+### 思路 3
+
+@[YatogamiKid](https://github.com/YatogamiKid)
+
+> script 中关于 5 分钟弹窗判断条件是
+> 
+> 计时变量 `hdflag＞300`
+> 
+> 可以在控制台中将 `hdflag` 值设置成 `-99999`
+
 ## 代码
 
 ```javascript
@@ -75,3 +85,8 @@ F12打开开发者控制台 点击console选项卡 粘贴后回车即可运行
 ## 最终效果图
 
 ![](assets/effect.png)
+
+
+## See Also
+
+- [Nugine/nuist-examsafety](https://github.com/Nugine/nuist-examsafety)
